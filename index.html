@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Hearthstone Deck Suggestor</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="white"/>
+</head>
+<body class="fullscreen">
+	<div class="tab">
+		<button class="tablinks" onclick="openTab(event, 'Suggest')" id="defaultOpen">Suggested Decks</button>
+		<button class="tablinks" onclick="openTab(event, 'Manage')">Manage</button>
+	</div>
+	
+	<!-- Tab content -->
+	<div id="Suggest" class="tabcontent">
+		<h3>Suggested decks</h3>
+		<p>Suggested decks list will go here.</p>
+	</div>
+	<div id="Manage" class="tabcontent">
+		<h3>Manage decks</h3>
+		<p>Favorite and meta deck lists can be imported and deleted here.</p>
+	</div>
+	<script src="js/tabs.js"></script>
+	<script>document.getElementById("defaultOpen").click();</script>
+</body>
+</html>
